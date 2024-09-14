@@ -45,7 +45,7 @@ function MessageContainer() {
           <A href="https://www.linkedin.com/in/gitanshu-sankhla/" target="new">
             Gitanshu sankhla
           </A>{" "}
-          to keep updated about the Wild Oasis project.
+          to keep getting updates about the Wild Oasis project.
         </p>
       </div>
       <div>
