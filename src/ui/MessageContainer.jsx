@@ -33,21 +33,6 @@ const LI = styled.li`
   text-align: start;
 `;
 
-const Form = styled.form`
-  display: flex;
-  gap: 1.2rem;
-  flex-direction: column;
-  width: 60%;
-  margin: 2.4rem auto;
-`;
-
-const FormDIV = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  font-weight: 600;
-`;
-
 function MessageContainer() {
   return (
     <StyledMessageContainer>
@@ -85,21 +70,6 @@ function MessageContainer() {
             link
           </LI>
         </UL>
-        <h2>
-          Excited to explore full application, then do subscribe from below form
-        </h2>
-        <Form
-          name="subscribe"
-          method="POST"
-          data-netlify="true"
-          onSubmit="submit"
-        >
-          <FormDIV>
-            <Input type="email" name="email" id="email" placeholder="Email" />
-          </FormDIV>
-          <div data-netlify-recaptcha="true"></div>
-          <Button>Subscribe</Button>
-        </Form>
       </div>
     </StyledMessageContainer>
   );
