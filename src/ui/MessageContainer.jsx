@@ -52,7 +52,7 @@ function MessageContainer() {
         <h3>Upcoming Features</h3>
         <UL>
           <LI>
-            <strong>Authentication</strong> for users to perform CRUD on data
+            <strong>Authentication</strong> for users to perform CRUD on data.
           </LI>
           <LI>
             A proper <strong>Dashboard</strong> to analyse data through charts
@@ -66,8 +66,8 @@ function MessageContainer() {
             A <strong>Dark Mode</strong> mode for the application.
           </LI>
           <LI>
-            A <strong>Header</strong> with current login data and user setting
-            link
+            A <strong>Header</strong> with current logged-in user info and user
+            setting link.
           </LI>
         </UL>
       </div>
