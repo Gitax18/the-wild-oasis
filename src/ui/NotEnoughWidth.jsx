@@ -13,7 +13,7 @@ function NotEnoughWidth() {
       <Logo />
       <H>
         This Device width screen is not enough, to view the whole application
-        please switch to desktop aur laptop.
+        please switch to desktop or laptop.
       </H>
     </div>
   );
