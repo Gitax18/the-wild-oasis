@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import styled from "styled-components";
-import Button from "./Button";
-import Input from "./Input";
 
 const StyledMessageContainer = styled.div`
   text-align: center;
