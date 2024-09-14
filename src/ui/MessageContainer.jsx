@@ -88,7 +88,7 @@ function MessageContainer() {
         <h2>
           Excited to explore full application, then do subscribe from below form
         </h2>
-        <Form name="subscribe" action="POST" data-netlify="true" netlify>
+        <Form name="subscribe" action="POST" data-netlify="true">
           <FormDIV>
             <Input type="email" name="email" id="email" placeholder="Email" />
           </FormDIV>
