@@ -92,6 +92,7 @@ function MessageContainer() {
           <FormDIV>
             <Input type="email" name="email" id="email" placeholder="Email" />
           </FormDIV>
+          <div data-netlify-recaptcha="true"></div>
           <Button>Subscribe</Button>
         </Form>
       </div>
